@@ -27,5 +27,3 @@ Se implementa diferente vista para diferentes modelos de dispositivo, vista para
 ## Autores ✒️
 
 * **Ivan Fernández Bermejo** - *Integro* - [Ivanfbermejo](https://github.com/Ivanfbermejo)
-
-También puedes mirar la lista de todos los [contribuyentes](https://github.com/your/project/contributors) quíenes han participado en este proyecto.

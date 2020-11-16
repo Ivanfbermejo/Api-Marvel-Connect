@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Api Marvel Connect</string>
+    <string name="icono_personaje">icono personaje</string>
+    <string name="nombre_personaje">nombre personaje</string>
+    <string name="identificador">Identificador:</string>
+    <string name="descripcion">Descripcion</string>
+    <string name="ultima_modificacion">Ultima Modificacion:</string>
+    <string name="direcci_n_imagen">Dirección Imagen</string>
+    <string name="direccion_consulta">Direccion Consulta:</string>
+    <string name="numero_de_comiccs">Numero de Comiccs:</string>
+    <string name="numero_series">Numero Series:</string>
+    <string name="numero_historias">Numero Historias:</string>
+    <string name="numero_eventos">Numero Eventos:</string>
+    <string name="enlaces_relevantes">Enlaces Relevantes:</string>
+    <string name="boton_atras">Boton atras</string>
+    <string name="title_activity_detalles">ScrollingActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="sin_contenido">SIN CONTENIDO</string>
+</resources>

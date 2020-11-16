@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/foto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/icono_personaje" />
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:text=""
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:autoSizeTextType="uniform"
+            android:contentDescription="@string/nombre_personaje"
+            android:padding="5sp"
+            android:layout_margin="5sp"
+            android:background="@drawable/titulo"/>
+</RelativeLayout>

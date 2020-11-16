@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/todo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior" >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/identificador"
+        android:layout_marginTop="5sp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        tools:ignore="SmallSp" />
+    <TextView
+        android:id="@+id/id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50sp"
+        android:textStyle="italic" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/descripcion"
+        android:layout_marginTop="5sp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        tools:ignore="SmallSp" />
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50sp"
+        android:textStyle="italic"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ultima_modificacion"
+        android:layout_marginTop="5sp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        tools:ignore="SmallSp"/>
+    <TextView
+        android:id="@+id/modified"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50sp"
+        android:textStyle="italic"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/direcci_n_imagen"
+        android:layout_marginTop="5sp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        tools:ignore="SmallSp"/>
+    <TextView
+        android:id="@+id/foto_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50sp"
+        android:textStyle="italic"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/direccion_consulta"
+        android:layout_marginTop="5sp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        tools:ignore="SmallSp"/>
+    <TextView
+        android:id="@+id/resourceURI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50sp"
+        android:textStyle="italic" />
+</LinearLayout>
